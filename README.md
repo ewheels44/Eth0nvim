@@ -10,8 +10,7 @@ This is my lua configuration file for nvim
 1. cp
 
 
--- Icons setup
-
+-- Icons setup::
 Mac os x 
   1. terminal preferences
   2. Font
