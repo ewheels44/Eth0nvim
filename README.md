@@ -8,6 +8,14 @@ This is my lua configuration file for nvim
 
 #setup
 1. cp
+2. 
+-- Icons setup
+Mac os x 
+  1. terminal preferences
+  2. Font
+  3. find desired font
+Linux 
+  1. 
 
 
 #TODO
