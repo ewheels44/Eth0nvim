@@ -13,15 +13,14 @@ This is my lua configuration file for nvim
 
 ----------------------------------------------------------------------
 
-**setup**
+**Installation**
 1. navigate to ~/.config/nvim
 2. git clone https://github.com/ewheels44/Eth0nvim.git
 
+----------------------------------------------------------------------
 
-
-- Icons setup
-
-  Mac os x 
+**Icons setup**
+Mac os x 
   1. Install desired font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
   2. terminal preferences
   3. Font
