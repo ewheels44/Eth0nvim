@@ -19,8 +19,8 @@ This is my lua configuration file for nvim
 
 
 
--- Icons setup::
-Mac os x 
+-Icons setup
+  Mac os x 
   1. Install desired font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
   2. terminal preferences
   3. Font
