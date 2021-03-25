@@ -11,6 +11,9 @@ This is my lua configuration file for nvim
 
 
 #TODO
+
 get c++ lsp config working
+
 make install script
+
 add more notation to config files
