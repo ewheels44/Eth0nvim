@@ -13,7 +13,7 @@ This is my lua configuration file for nvim
 
 ----------------------------------------------------------------------
 
-# setup
+**setup**
 1. navigate to ~/.config/nvim
 2. git clone https://github.com/ewheels44/Eth0nvim.git
 
