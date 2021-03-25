@@ -6,8 +6,12 @@ https://github.com/ChristianChiarulli/nvcode
 
 This is my lua configuration file for nvim
 
+**REQUIREMENTS**
+- Neovim nightly[link to neovim](https://github.com/neovim/neovim)
+
 #setup
-1. cp
+1. navigate to ~/.config/nvim
+
 
 
 -- Icons setup::
