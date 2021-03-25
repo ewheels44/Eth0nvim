@@ -7,7 +7,7 @@ https://github.com/ChristianChiarulli/nvcode
 This is my lua configuration file for nvim
 
 **REQUIREMENTS**
-- Neovim nightly[link to neovim](https://github.com/neovim/neovim)
+- Neovim [nightly](https://github.com/neovim/neovim/releases/tag/nightly)
 
 #setup
 1. navigate to ~/.config/nvim
