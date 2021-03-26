@@ -14,8 +14,10 @@ This is my lua configuration file for nvim
 ----------------------------------------------------------------------
 
 **Installation**
-1. navigate to ~/.config/nvim
+1. navigate to ~/.config/
 2. git clone https://github.com/ewheels44/Eth0nvim.git
+3. ln -s Eth0nvim/ nvim
+4. Next, run `nvim` and then `:PackerInstall`
 
 ----------------------------------------------------------------------
 
