@@ -12,7 +12,7 @@ else
 
   -- Plugins
   require('nv-compe') 		-- auto complete 
-  require('nv-treesitter') 	-- bettter language highlighting 
+ --require('nv-treesitter') 	-- bettter language highlighting 
   require('nv-nvimtree') 	-- file explorer plugin (Like an IDE explorer)
   -- require('nv-lspinstall') 	-- EasyLspInstall (custom installe) i.e. java
     -- not neeed rn
@@ -20,6 +20,7 @@ else
   require('nv-icons') 		-- A config file for Icons/Fonts
   require('nv-colorizer') 	-- useful for adding colorization to customization
   require('colorscheme') 	-- plugin for color scheme
+  require('nv-barbar')      -- plugin for better tab navigation in neovim
 
   -- LSP
   require('lsp')
