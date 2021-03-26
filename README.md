@@ -23,16 +23,18 @@ This is my lua configuration file for nvim
 
 **Icons setup**
 ###### Mac os x 
-  1. Install desired font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
-  2. terminal preferences
-  3. Font
-  4. find desired font
-Linux 
-  1. 
+  1. Install desired font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts) using HomeBrew!
+  2. Change your terminal [font](https://www.foxinfotech.in/2019/05/how-to-change-terminal-color-and-font-in-macos-mojave.html)
+
+Linux/Ubuntu 
+  1. Install desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+  2. mkdir -p ~/.local/share/fonts
+  3. cd ~/.local/share/fonts && unzip ~/Downloads/<Font Name>.zip
+  4. Change your terminal [font](https://vitux.com/how-to-change-your-ubuntu-terminals-font-size/)
 
 ----------------------------------------------------------------------
 
-#TODO
+TODO
 
 get c++ lsp config working
 
