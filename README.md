@@ -38,7 +38,7 @@ This is my lua configuration file for nvim
 
 TODO
 
-get c++ lsp config working
+x - get c++ lsp config working
 
 make install script
 
