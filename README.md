@@ -28,7 +28,7 @@ This is my lua configuration file for nvim
   1. Install desired font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts) using HomeBrew!
   2. Change your terminal [font](https://www.foxinfotech.in/2019/05/how-to-change-terminal-color-and-font-in-macos-mojave.html)
 
-Linux/Ubuntu 
+###### Linux/Ubuntu 
   1. Install desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
   2. mkdir -p ~/.local/share/fonts
   3. cd ~/.local/share/fonts && unzip ~/Downloads/<Font Name>.zip
