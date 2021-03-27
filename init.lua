@@ -26,5 +26,5 @@ else
   require('lsp.lua-ls')
   require('lsp.bash-ls')
   require('lsp.js-ts-ls')
-  require('lsp.cpp-ls')     -- C++ language support 
+  require('lsp.cpp-ls')     -- C++ language support! 
 end
