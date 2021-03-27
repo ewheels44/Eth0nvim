@@ -1,5 +1,7 @@
 # Eth0nvim
 Author: Ethan Wheeler, Spring 2021
+![image](https://user-images.githubusercontent.com/31321251/112733273-e0461180-8f0c-11eb-9c4d-d3775389faf4.png)
+
 
 Heavily influenced by: nvcode @Christian Chiarulli
 https://github.com/ChristianChiarulli/nvcode
