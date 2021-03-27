@@ -41,9 +41,9 @@ return require('packer').startup(function()
 
 
   -- Treesitter (used for "Syntax" highlighting)
-  -- use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
-  -- use 'nvim-treesitter/playground'
-  -- use 'p00f/nvim-ts-rainbow'
+  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use 'nvim-treesitter/playground'
+  use 'p00f/nvim-ts-rainbow'
 
   -- Icons
   use 'kyazdani42/nvim-web-devicons'

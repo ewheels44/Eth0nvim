@@ -12,7 +12,7 @@ else
 
   -- Plugins
   require('nv-compe') 		-- auto complete 
- --require('nv-treesitter') 	-- bettter language highlighting 
+  require('nv-treesitter') 	-- bettter language highlighting 
   require('nv-nvimtree') 	-- file explorer plugin (Like an IDE explorer)
   -- require('nv-lspinstall') 	-- EasyLspInstall (custom installe) i.e. java
     -- not neeed rn
