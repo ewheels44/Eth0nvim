@@ -25,13 +25,15 @@ vim.wo.colorcolumn="80" 				-- puts a bar at 80 characters - used as a guide lin
 
 -- bo ]-> buffer-local options (found in :options /tabs)
 --Tabs and spaces
-vim.bo.tabstop=4                           --Insert 4 spaces for a tab 
-vim.bo.softtabstop=4 			  --if non-zero, number of spaces to insert for a <Tab> 
+-- vim.bo.tabstop=4                           --Insert 4 spaces for a tab 
+-- vim.bo.softtabstop=4 			  --if non-zero, number of spaces to insert for a <Tab> 
+vim.cmd('set ts=4') 			-- seems to fix the tab issues (finally makes it 4)
+vim.cmd('set sw=4') 			-- /
 vim.bo.shiftwidth=4                        --Change the number of space characters inserted for indentation 
 --vim.bo.smarttab=true                            --Makes tabbing smarter will realize you have 2 vs 4 
 vim.bo.expandtab=true                           --Converts tabs to spaces 
 vim.bo.smartindent=true                         --Makes indenting smart 
-vim.bo.autoindent=true                          --Good auto indent 
+--vim.bo.autoindent=true                          --Good auto indent 
 --vim.bo.showtabline=4                       --Always show tabs
 
 vim.o.laststatus=2                        --Always display the status line
