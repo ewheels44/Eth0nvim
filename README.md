@@ -2,6 +2,11 @@
 Author: Ethan Wheeler, Spring 2021
 ![image](https://user-images.githubusercontent.com/31321251/112733273-e0461180-8f0c-11eb-9c4d-d3775389faf4.png)
 
+General snippet gif
+
+https://user-images.githubusercontent.com/31321251/112736448-c1517a80-8f20-11eb-905e-f4bb4019a6d8.mov
+
+
 
 Heavily influenced by: nvcode @Christian Chiarulli
 https://github.com/ChristianChiarulli/nvcode
