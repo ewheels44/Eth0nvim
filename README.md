@@ -3,7 +3,8 @@ Author: Ethan Wheeler, Spring 2021
 ![image](https://user-images.githubusercontent.com/31321251/112733273-e0461180-8f0c-11eb-9c4d-d3775389faf4.png)
 
 General snippet gif
-![nvim_general](https://user-images.githubusercontent.com/31321251/112737113-fca27800-8f25-11eb-9b0b-318ab138589e.gif)
+![nvim_general(1)](https://user-images.githubusercontent.com/31321251/112737285-522b5480-8f27-11eb-8f03-ebda9b506df4.gif)
+
 
 
 LSP support gif(code actions, get references, etc.. )
