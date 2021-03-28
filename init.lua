@@ -2,7 +2,7 @@ if vim.g.vscode then
   vim.cmd('source ~/.config/nvim/lua/nv-vscode/init.vim')
 else
   -- General mappings
-  require('plugins') 		-- points to tall the plugins
+  require('plugins') 		-- points to all the plugins
   require('settings') 		-- where you configure local, global, and local buffer changes i.e. set mousemode 
   require('keymappings') 	-- settings for all keymappinngs
   require('nv-utils') 		-- settings for auto formatings and lsp
