@@ -17,7 +17,7 @@ https://github.com/ChristianChiarulli/nvcode
 
 **REQUIREMENTS**
 - Neovim [nightly](https://github.com/neovim/neovim/wiki/Building-Neovim#quick-start)
-- ``` bash
+``` bash
 cd ~
 sudo rm -r neovim
 git clone https://github.com/neovim/neovim
