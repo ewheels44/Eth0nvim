@@ -16,7 +16,7 @@ https://github.com/ChristianChiarulli/nvcode
 ----------------------------------------------------------------------
 
 **REQUIREMENTS**
-- Neovim [nightly](https://blog.dkendal.com/posts/how-to-install-neovim-nightly/)
+- Neovim [nightly](https://github.com/neovim/neovim/wiki/Building-Neovim#quick-start)
 
 ----------------------------------------------------------------------
 
