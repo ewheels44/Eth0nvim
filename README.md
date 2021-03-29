@@ -35,6 +35,7 @@ sudo rm -r neovim
 2. git clone https://github.com/ewheels44/Eth0nvim.git
 3. ln -s Eth0nvim/ nvim
 4. Next, run `nvim` and then `:PackerInstall`
+5. Then quit out of nvim ':q'
 
 ----------------------------------------------------------------------
 
