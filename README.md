@@ -8,6 +8,8 @@ General snippet gif
 
 
 LSP support gif(code actions, get references, etc.. )
+![lsp_ca](https://user-images.githubusercontent.com/31321251/112777339-9b52d580-9007-11eb-84b0-6aeff2f7f39c.gif)
+
 
 
 Heavily influenced by: nvcode @Christian Chiarulli
