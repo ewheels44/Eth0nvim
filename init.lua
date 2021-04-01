@@ -8,10 +8,12 @@ else
   require('nv-utils') 		-- settings for auto formatings and lsp
   require('nv-comment') 	-- quick pluggin for commenting-out chucks of code
   require('nv-globals') 	-- defines 2 globals used in lsp
+  require('nv-autocmds')    -- does everything thats "auto" ie, format, autocompe, snippet
+  require('nv-autotab')     -- tab compe for snippets
 --  require('keymappingstest')
 
   -- Plugins
-  require('nv-compe') 		-- auto complete 
+  require('nv-compe') 		-- auto complete && snippet support
   require('nv-treesitter') 	-- bettter language highlighting 
   require('nv-nvimtree') 	-- file explorer plugin (Like an IDE explorer)
   -- require('nv-lspinstall') 	-- EasyLspInstall (custom installe) i.e. java

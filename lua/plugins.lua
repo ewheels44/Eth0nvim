@@ -38,9 +38,11 @@ return require('packer').startup(function()
   -- use 'SirVer/ultisnips'
   -- use 'honza/vim-snippets'
   -- use 'norcalli/snippets.nvim'
+    -- sub cat of snippets
+    use "rafamadriz/friendly-snippets"
+  use 'windwp/nvim-autopairs'
 
-
-  -- Treesitter (used for "Syntax" highlighting)
+-- Treesitter (used for "Syntax" highlighting)
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   use 'nvim-treesitter/playground'
   use 'p00f/nvim-ts-rainbow'

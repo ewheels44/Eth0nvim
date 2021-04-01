@@ -17,6 +17,12 @@ vim.api.nvim_set_keymap('n', '<Leader>f',  [[<Cmd>lua require('telescope.builtin
 -- :nnoremap <silent> <Leader>tegf <Cmd>lua require('telescope.builtin').git_files()<CR>
 -- nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
 
+-- toggle TSplaygroundtoggle
+vim.api.nvim_set_keymap('n', '<leader>t', ':TSPlaygroundToggle<CR>', {noremap = true, silent = true})
+
+-- Bufferclose keymap
+vim.api.nvim_set_keymap('n', '<Leader>b', ':BufferClose<CR>', {noremap = true, silent = true})
+
 -- better window movement
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h', {silent = true})
 vim.api.nvim_set_keymap('n', '<C-j>', '<C-w>j', {silent = true})
@@ -50,11 +56,8 @@ vim.cmd([[
 vim.api.nvim_set_keymap('v', '<', '<gv', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('v', '>', '>gv', {noremap = true, silent = true})
 
--- -- Tab switch buffer
--- vim.api.nvim_set_keymap('n', '<TAB>', ':bnext<CR>', {noremap = true, silent = true})
--- vim.api.nvim_set_keymap('n', '<S-TAB>', ':bprevious<CR>', {noremap = true, silent = true})
-
--- vim.api.nvim_set_keymap('i', '<C-TAB>', 'compe#complete()', {noremap = true, silent = true, expr = true})
+--Snippet support
+vim.api.nvim_set_keymap('i', '<C-Space>', 'compe#complete()', {noremap = true, silent = true, expr = true})
 
 -- vim.cmd([[
 -- map p <Plug>(miniyank-autoput)
