@@ -8,6 +8,8 @@ General snippet gif
 
 
 LSP support gif(code actions, get references, etc.. )
+![lsp_ca](https://user-images.githubusercontent.com/31321251/112777339-9b52d580-9007-11eb-84b0-6aeff2f7f39c.gif)
+
 
 
 Heavily influenced by: nvcode @Christian Chiarulli
@@ -16,7 +18,17 @@ https://github.com/ChristianChiarulli/nvcode
 ----------------------------------------------------------------------
 
 **REQUIREMENTS**
-- Neovim [nightly](https://blog.dkendal.com/posts/how-to-install-neovim-nightly/)
+- Neovim [nightly](https://github.com/neovim/neovim/wiki/Building-Neovim#quick-start)
+``` bash
+cd ~
+sudo rm -r neovim
+git clone https://github.com/neovim/neovim
+cd neovim
+make CMAKE_BUILD_TYPE=Release install
+sudo make CMAKE_BUILD_TYPE=Release install
+cd ~
+sudo rm -r neovim
+```
 
 ----------------------------------------------------------------------
 
@@ -25,6 +37,7 @@ https://github.com/ChristianChiarulli/nvcode
 2. git clone https://github.com/ewheels44/Eth0nvim.git
 3. ln -s Eth0nvim/ nvim
 4. Next, run `nvim` and then `:PackerInstall`
+5. Then quit out of nvim `:q`
 
 ----------------------------------------------------------------------
 
