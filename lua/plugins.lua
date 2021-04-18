@@ -65,6 +65,12 @@ return require('packer').startup(function()
   -- Explorer (used to explore files in current directory)
   use 'kyazdani42/nvim-tree.lua'
 
+  -- Whichkey
+  	use {
+    'AckslD/nvim-whichkey-setup.lua',
+    requires = {'liuchengxu/vim-which-key'},
+}
+
 
   -- Color
   use 'christianchiarulli/nvcode-color-schemes.vim'
