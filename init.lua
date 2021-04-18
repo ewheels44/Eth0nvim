@@ -7,7 +7,7 @@ else
   require('keymappings') 	-- settings for all keymappinngs
   require('nv-utils') 		-- settings for auto formatings and lsp
   require('nv-comment') 	-- quick pluggin for commenting-out chucks of code
-  require('nv-globals') 	-- defines 2 globals used in lsp
+  require('nv-globals') 	-- defines global options (not fully used)
   require('nv-autocmds')    -- does everything thats "auto" ie, format, autocompe, snippet
   require('nv-autotab')     -- tab compe for snippets
 --  require('keymappingstest')
@@ -29,6 +29,7 @@ else
   require('lsp')
   require('lsp.lua-ls')
   require('lsp.bash-ls')
-  require('lsp.js-ts-ls')
+  require('lsp.js-ls')
   require('lsp.cpp-ls')     -- C++ language support! 
+  require('lsp.general-ls')
 end
