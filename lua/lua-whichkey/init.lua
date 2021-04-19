@@ -19,6 +19,7 @@ local keymap = {}
 --general
 	keymap['w'] = {'<Cmd>w<CR>', 'Save file'}
 	keymap['h'] = {'<Cmd>nohlsearch<CR>', 'no highlight search'}
+	keymap['q'] = {'<Cmd>q<CR>' , 'quit'}
 -- find harcoded toggels in keymappings.lua
 
 --buffers
