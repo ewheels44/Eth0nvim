@@ -24,6 +24,7 @@ else
   require('colorscheme') 	-- plugin for color scheme
   require('nv-barbar')      -- plugin for better tab navigation in neovim
   require('lua-whichkey')   -- plugin creats dashboard help menu and displays "which key" you are looking for
+  require('nv-galaxyline')
 
   -- LSP
   require('lsp')
