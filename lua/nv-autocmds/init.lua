@@ -37,5 +37,12 @@ utils.define_augroups({
         {'BufWinEnter', '.sol', 'setlocal filetype=solidity'}, {'BufRead', '*.sol', 'setlocal filetype=solidity'},
         {'BufNewFile', '*.sol', 'setlocal filetype=solidity'}
     },
+	_dashboard = {
+        -- seems to be nobuflisted that makes my stuff disapear will do more testing
+        {
+            'FileType', 'dashboard',
+            'setlocal nocursorline noswapfile synmaxcol& signcolumn=no norelativenumber nocursorcolumn nospell  nolist  nonumber bufhidden=wipe colorcolumn= foldcolumn=0 matchpairs= '
+        }, {'FileType', 'dashboard', 'set showtabline=0 | autocmd BufLeave <buffer> set showtabline=2'}
+    },
     _auto_formatters = auto_formatters
 })

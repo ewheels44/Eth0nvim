@@ -20,6 +20,8 @@ return require('packer').startup(function()
   -- Quality of life improvements
   use 'norcalli/nvim_utils'
   use 'glepnir/galaxyline.nvim'
+  -- use {'glepnir/dashboard-nvim', opt = true}
+  use {'glepnir/dashboard-nvim'}
 
   -- LSP
   use 'neovim/nvim-lspconfig'
