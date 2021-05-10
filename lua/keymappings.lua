@@ -13,9 +13,12 @@ vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeToggle<CR>', {noremap = true
     -- for some reason <Leader>ff doesnt work
     --vim.api.nvim_set_keymap('n', '<Leader>ff', [[<Cmd>lua require('telescope.builtin').find_files()<CR>]], {noremap = true, silent = true})
 
-vim.api.nvim_set_keymap('n', '<Leader>f',  [[<Cmd>lua require('telescope.builtin').find_files()<CR>]], { noremap = true, silent = true })
+	--this one works
+-- vim.api.nvim_set_keymap('n', '<Leader>f',  [[<Cmd>lua require('telescope.builtin').find_files()<CR>]], { noremap = true, silent = true })
 -- :nnoremap <silent> <Leader>tegf <Cmd>lua require('telescope.builtin').git_files()<CR>
 -- nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
+
+vim.api.nvim_set_keymap('n', '<Leader>f', ':Telescope find_files<CR>', { noremap = true, silent = true})
 
 -- toggle TSplaygroundtoggle
 vim.api.nvim_set_keymap('n', '<leader>t', ':TSPlaygroundToggle<CR>', {noremap = true, silent = true})
