@@ -1,4 +1,21 @@
 # Eth0nvim
+`Eth0nvim` is a detailed, simplistic and organized [neovim](https://neovim.io/) configuraion. 
+
+The centeral focuses around this project are:
+
+* ## Detail oriented code
+    * why is the puglin here and what does it do?
+* ## simplicity
+  *    Do I really need that plugin?
+
+* ## Organization
+    * keeping seperate files for different pulgins or grouping them based on useage or purpose
+
+The main reason I started this project was in due part of the confusion I faced when getting started with Neovim.
+What are plugins? Where and how are they used? Which one is the best? The most up-to-date? Who had the most
+commits? Was it still being actively developed? It was a confusing introduction and the puropse of this project is to hopefully 
+help eliminate some of said confusion. With a detailed 
+
 Author: Ethan Wheeler, Spring 2021
 ![image](https://user-images.githubusercontent.com/31321251/112733273-e0461180-8f0c-11eb-9c4d-d3775389faf4.png)
 
