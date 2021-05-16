@@ -1,15 +1,19 @@
 # Eth0nvim
 `Eth0nvim` is a detailed, simplistic and organized [neovim](https://neovim.io/) configuraion. 
 
-The centeral focuses around this project are:
+The core values are:
 
 * ## Detail oriented code
     * why is the puglin here and what does it do?
-* ## simplicity
+    * ![image](https://user-images.githubusercontent.com/31321251/118415321-46c6f080-b66f-11eb-95e5-ed5e11a2b652.png)
+
+* ## Simplicity
   *    Do I really need that plugin?
 
 * ## Organization
-    * keeping seperate files for different pulgins or grouping them based on useage or purpose
+    * creating seperate files for pulgins or grouping them based on useage or purpose
+    * ![image](https://user-images.githubusercontent.com/31321251/118415341-61996500-b66f-11eb-99a1-7a67f6d80294.png)
+
 
 The main reason I started this project was in due part of the confusion I faced when getting started with Neovim.
 What are plugins? Where and how are they used? Which one is the best? The most up-to-date? Who had the most
@@ -17,7 +21,6 @@ commits? Was it still being actively developed? It was a confusing introduction 
 help eliminate some of said confusion. With a detailed `init.lua` and organized `lua/plugins.lua` it can be easy to understand why
 plugins and custom code is where it is.
 
-Author: Ethan Wheeler, Spring 2021
 ![image](https://user-images.githubusercontent.com/31321251/112733273-e0461180-8f0c-11eb-9c4d-d3775389faf4.png)
 
 General snippet gif
@@ -79,3 +82,5 @@ x - get c++ lsp config working
 make install script
 
 add more notation to config files
+
+Author: Ethan Wheeler, Spring 2021
