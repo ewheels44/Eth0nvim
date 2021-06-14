@@ -20,7 +20,6 @@ return require('packer').startup(function()
   -- Quality of life improvements
   use 'norcalli/nvim_utils'
   use 'glepnir/galaxyline.nvim'
-  -- use {'glepnir/dashboard-nvim', opt = true}
   use {'glepnir/dashboard-nvim'}
 
   -- LSP
@@ -55,9 +54,7 @@ return require('packer').startup(function()
   use 'ryanoasis/vim-devicons'
 
   -- -- Status Line and Bufferline
-  -- use 'glepnir/galaxyline.nvim'
   -- -- use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
-  -- use 'romgrk/barbar.nvim'
 
   -- Telescope
  use 'nvim-lua/popup.nvim'
