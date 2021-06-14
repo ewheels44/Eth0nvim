@@ -21,9 +21,9 @@ if O.json.autoformat then table.insert(auto_formatters, json_format) end
 utils.define_augroups({
     _general_settings = {
         {'TextYankPost', '*', 'lua require(\'vim.highlight\').on_yank({higroup = \'Search\', timeout = 200})'},
-        {'BufWinEnter', '*', 'setlocal formatoptions-=c formatoptions-=r formatoptions-=o'},
-        {'BufRead', '*', 'setlocal formatoptions-=c formatoptions-=r formatoptions-=o'},
-        {'BufNewFile', '*', 'setlocal formatoptions-=c formatoptions-=r formatoptions-=o'}
+        {'BufWinEnter', '*', 'setlocal formatoptions+=c formatoptions+=r formatoptions+=o'},
+        {'BufRead', '*', 'setlocal formatoptions+=c formatoptions+=r formatoptions+=o'},
+        {'BufNewFile', '*', 'setlocal formatoptions+=c formatoptions+=r formatoptions+=o'},
 
         -- {'User', 'GoyoLeave', 'lua require(\'galaxyline\').disable_galaxyline()'},
         -- {'User', 'GoyoEnter', 'lua require(\'galaxyline\').galaxyline_augroup()'},
