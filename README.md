@@ -1,14 +1,6 @@
 # Eth0nvim
 `Eth0nvim` is a detailed, simplistic and organized [neovim](https://neovim.io/) configuraion. 
 
-## Features:
-
-* Detail oriented code
-* Simplicity
-* Organization
-
-----------------------------------------------------------------------
-
 ## Preview: 
 General snippet gif
 ![nvim_general(1)](https://user-images.githubusercontent.com/31321251/112737285-522b5480-8f27-11eb-8f03-ebda9b506df4.gif)
