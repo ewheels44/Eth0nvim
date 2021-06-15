@@ -1,4 +1,4 @@
-vim.cmd('set iskeyword+=-')                  --treat dash separated words as a word text object"
+-- vim.cmd('set iskeyword+=-')                  --treat dash separated words as a word text object"
 vim.cmd('set shortmess+=c')                 --Don't pass messages to |ins-completion-menu|.
 vim.o.hidden=true                              --Required to keep multiple buffers open multiple buffers
 vim.cmd('set whichwrap+=<,>,[,],h,l')
@@ -35,6 +35,7 @@ vim.bo.expandtab=true                           --Converts tabs to spaces
 vim.bo.smartindent=true                         --Makes indenting smart 
 --vim.bo.autoindent=true                          --Good auto indent 
 --vim.bo.showtabline=4                       --Always show tabs
+--vim.bo.formatoptions="+=cro"
 
 vim.o.laststatus=2                        --Always display the status line
 vim.o.cursorline=true                          --Enable highlighting of the current line
