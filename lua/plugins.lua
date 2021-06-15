@@ -88,4 +88,5 @@ return require('packer').startup(function()
   -- General Plugins
     use 'terrortylor/nvim-comment'
     use 'romgrk/barbar.nvim'
+	use 'andweeb/presence.nvim' 	-- discord status message
 end)
