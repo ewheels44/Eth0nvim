@@ -20,7 +20,11 @@ local keymap = {}
 	keymap['w'] = {'<Cmd>w<CR>', 'Save file'}
 	keymap['h'] = {'<Cmd>nohlsearch<CR>', 'no highlight search'}
 	keymap['q'] = {'<Cmd>q<CR>' , 'quit'}
+<<<<<<< HEAD
 	keymap['t'] = {'<Cmd>highlight Normal guibg=none<CR>', 'transparent'}
+=======
+	keymap['n'] = {'<Cmd>help nvim-features<CR>', 'NVIM help'}
+>>>>>>> 56bdc4471eee19f5b994b9cd143363ce9b42a6d2
 -- find harcoded toggels in keymappings.lua
 
 --buffers
