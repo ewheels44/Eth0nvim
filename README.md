@@ -100,7 +100,8 @@ cd ~
 sudo rm -r neovim
 git clone https://github.com/neovim/neovim
 cd neovim
-make CMAKE_BUILD_TYPE=Release install
+make
+sudo make install
 cd ~
 sudo rm -r neovim
 ```
