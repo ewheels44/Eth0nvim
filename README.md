@@ -94,6 +94,7 @@ https://github.com/ChristianChiarulli/nvcode
 
 **REQUIREMENTS**
 - Neovim [nightly](https://github.com/neovim/neovim/wiki/Building-Neovim#quick-start)
+- Neovim [build-prereqs](https://github.com/neovim/neovim/wiki/Building-Neovim#build-prerequisites)
 ``` bash
 cd ~
 sudo rm -r neovim
